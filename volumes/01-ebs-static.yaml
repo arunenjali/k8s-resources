@@ -13,8 +13,7 @@ spec:
     driver: ebs.csi.aws.com
     fsType: ext4
     volumeHandle: vol-0ec02a72da0f7ebcd
-  
-  ---
+---
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
@@ -27,4 +26,3 @@ spec:
   resources:
     requests:
       storage: 15Gi
----
